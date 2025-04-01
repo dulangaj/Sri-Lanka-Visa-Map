@@ -17,13 +17,6 @@ st.subheader("Countries Sri Lankans can visit without a visa")
 def get_visa_free_countries():
     """Get visa-free countries for Sri Lankan passport holders"""
     try:
-        # Path to cached data
-        cache_file = "visa_free_countries.json"
-        
-        # If we have cached data, use it
-        if os.path.exists(cache_file):
-            with open(cache_file, 'r') as f:
-                return json.load(f)
         
         # Hard-coded lists from https://visaindex.com/visa-requirement/sri-lanka-passport-visa-free-countries-list/
         # 1 April 2025
@@ -61,9 +54,6 @@ def get_visa_free_countries():
             "e_visa": e_visa
         }
         
-        # Cache the data
-        with open(cache_file, 'w') as f:
-            json.dump(result, f)
             
         return result
     except Exception as e:

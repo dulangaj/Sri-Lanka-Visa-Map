@@ -4,6 +4,7 @@ Got tired of trying to figure out how I can bundle up countries to travel to, an
 
 This is a hardcoded list, so will be inaccurate, but I could not find a free resource that had up to date visa information. Always verify visa requirements with official sources before traveling.
 
+
 ## Features
 
 - Interactive world map with zoom and hover capabilities
@@ -11,11 +12,13 @@ This is a hardcoded list, so will be inaccurate, but I could not find a free res
 - Detailed list of countries in each visa category
 - Responsive design that works on desktop and mobile
 
+![Sample Screenshot](https://github.com/dulangaj/Sri-Lanka-Visa-Map/blob/main/Screenshot.png?raw=true "Screenshot")
+
 ## Installation
 
 1. Clone this repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/dulangaj/Sri-Lanka-Visa-Map.git
    ```
 
 2. Install the required dependencies:
